@@ -20,9 +20,14 @@ else
   git config --global user.name "wangjinhai"
   git config --global user.email "506984994@qq.com"
 fi
+echo "git init"
 git init
+echo "git add -A"
 git add -A
+echo "git commit -m "
 git commit -m "${msg}"
+
+echo "git push"
 git push -f $githubUrl master:gh-pages # 推送到github
 
 ## deploy to coding
