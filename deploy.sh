@@ -20,7 +20,7 @@ else
   echo "进入else"
   msg='来自github actions的自动部署'
   githubUrl=https://wangjinhai555:${ACCESS_TOKEN}@github.com/wangjinhai555/githubblog.git
-  git config --global user.name "wangjinhai555"
+  git config --global user.name "wangjinhai"
   git config --global user.email "506984994@qq.com"
 fi
 echo "git init"
