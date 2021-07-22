@@ -10,7 +10,7 @@ npm run build
 cd docs/.vuepress/dist
 
 # deploy to github
-echo 'blog.wangjinhai.cn' > CNAME
+echo 'www.wangjinhai.cn' > CNAME
 
 if [ -z "$GITHUB_TOKEN" ]; then
   echo "进入if"
