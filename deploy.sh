@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 # edba111a2be8bcb10d1ffb2072116c84
 # 确保脚本抛出遇到的错误
-# set -e
+set -e
 
 # 生成静态文件
 npm run build
