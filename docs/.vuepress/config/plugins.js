@@ -78,18 +78,18 @@ module.exports = [
       hm: '503f098e7e5b3a5b5d8c5fc2938af002',
     },
   ],
-  [
-    'vuepress-plugin-comment',
-    {
-      choosen: 'valine',
-      // options选项中的所有参数，会传给Valine的配置
-      options: {
-        el: '#valine-vuepress-comment',
-        appId: 'KMAXtOlrqsURbC2u8dQF1a8c-gzGzoHsz',
-        appKey: 'C5kfLRaos4FLDPz8wALzbUId'
-      }
-    }
-  ],
+  // [
+  //   'vuepress-plugin-comment',
+  //   {
+  //     choosen: 'valine',
+  //     // options选项中的所有参数，会传给Valine的配置
+  //     options: {
+  //       el: '#valine-vuepress-comment',
+  //       appId: 'KMAXtOlrqsURbC2u8dQF1a8c-gzGzoHsz',
+  //       appKey: 'C5kfLRaos4FLDPz8wALzbUId'
+  //     }
+  //   }
+  // ],
   // [
   //   'vuepress-plugin-comment', // 评论
   //   {
