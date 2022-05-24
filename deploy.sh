@@ -13,11 +13,11 @@ cd docs/.vuepress/dist
 echo 'www.wangjinhai.cn' > CNAME
 
 if [ -z "$GITHUB_TOKEN" ]; then
-  echo "部署到码云"
+  echo "进入if"
   msg='deploy'
-  githubUrl=git@gitee.com:jinhaiwang/giteeblog.git
+  githubUrl=git@github.com:wangjinhai555/githubblog.git
 else
-  echo "github"
+  echo "进入else"
   msg='来自github actions的自动部署'
   githubUrl=https://wangjinhai555:${GITHUB_TOKEN}@github.com/wangjinhai555/githubblog.git
   git config --global user.name "wangjinhai"
