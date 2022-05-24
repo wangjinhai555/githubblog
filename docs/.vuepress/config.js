@@ -8,7 +8,7 @@ module.exports = {
 
   title: "小冷学习笔记",
   description: '后端技术博客,简洁至上,专注JAVA后端学习与总结。Spring、SpringBoot、SpringCloud、Mybatis、分布式、高并发、微服务、云原生、ES等技术文章。',
-  base: '/giteeblog/', // 格式：'/<仓库名>/'， 默认'/'
+  // base: '/giteeblog/', // 格式：'/<仓库名>/'， 默认'/'
   markdown: {
     lineNumbers: true, // 代码行号
   },
